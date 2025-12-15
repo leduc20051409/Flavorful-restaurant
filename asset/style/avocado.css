@@ -1,0 +1,173 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: inherit;
+    font-weight: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+#header {
+    background-color: #f47a1f;
+    max-height: 100px;
+    padding: 10px;
+    width: 100%;
+    z-index: 1;
+}
+
+#header .navigation {
+    line-height: 70px;
+}
+
+#header .navigation a {
+    font-size: 0.8rem;
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-family: Lato, sans-serif;
+}
+
+#header .logo-navigation {
+    width: 15%;
+    height: 70px;
+    padding: 5px 0;
+}
+
+#header .navigation a:hover {
+    text-decoration: underline;
+}
+
+/* Avocado */
+
+#avocado {
+    padding-top: 180px;
+}
+
+#avocado .title {
+    margin-bottom: 60px;
+}
+
+#avocado .title a {
+    font-size: 1.2rem;
+    color: #000;
+    text-decoration: none;
+}
+
+#avocado .title a:hover {
+    text-decoration: underline;
+}
+
+#avocado .title h1 {
+    font-family: initial;
+    font-size: 5.5rem;
+    font-weight: 400;
+    margin: 10px 0px;
+}
+
+#avocado .title p {
+    font-family: initial;
+    max-width: 500px;
+    font-size: 18px;
+}
+
+#avocado .avocado-img {
+    padding: 0px 50px;
+}
+
+#avocado .avocado-img img {
+    height: 700px;
+}
+
+#avocado .informations {
+    padding: 50px 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+.informations h2 {
+    font-family: initial;
+    font-size: 40px;
+    font-weight: 400;
+    margin: 30px 0px;
+}
+
+/* Footer */
+#footer {
+    background-color: #222;
+}
+
+#footer .footer-logo {
+    width: 15%;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+
+#footer .date-working {
+    color: #fff;
+    text-align: center;
+    padding-top: 20px;
+}
+
+#footer .date-working p {
+    letter-spacing: 1px;
+    font-family: Lato, sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+}
+
+#footer .footer-link {
+    padding-top: 30px;
+}
+
+#footer .footer-link a {
+    text-decoration: none;
+    color: #fff;
+    font-family: Lato, sans-serif;
+    margin: 0 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+#footer .footer-link a:hover {
+    text-decoration: underline;
+}
+
+#footer .footer-container .copyright {
+    padding-top: 30px;
+    color: #fff;
+    font-family: Lato, sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+    margin: 0 !important;
+}
+
+#footer .copyright a {
+    color: #fff;
+    transition: all 0.5s ease;
+}
+
+#footer .copyright a:hover {
+    color: #ccc;
+}
